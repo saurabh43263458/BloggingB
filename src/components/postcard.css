@@ -1,0 +1,37 @@
+
+
+/* Container equivalent to `w-full bg-gray-100 rounded-xl p-4` */
+.container-post {
+    
+    background-color: #ffffff; /* Light gray similar to bg-gray-100 */
+    border-radius: 1rem; /* Border-radius for rounded-xl */
+    padding: 1rem;
+     /* Padding for p-4 */
+}
+
+/* Image wrapper for centering */
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem; /* Margin-bottom for mb-4 */
+}
+
+
+.title-of-item{
+    text-align: center;
+   
+}
+/* Image styling equivalent to `rounded-xl` */
+.image {
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title styling equivalent to `text-xl font-bold` */
+.title-postcard {
+    color: black;
+    text-transform: capitalize;
+    font-size: 2rem; /* Equivalent to `text-xl` */
+    font-weight: bold; /* Equivalent to `font-bold` */
+}

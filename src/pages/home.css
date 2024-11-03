@@ -1,0 +1,71 @@
+
+/* HomeComponent.css */
+
+.home-container {
+    width: 100%;
+    padding: 2rem; /* Equivalent to py-8 */
+    margin-top: 1rem; /* Equivalent to mt-4 */
+    text-align: center; /* Center the text */
+}
+
+.home-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+}
+
+.home-title-wrapper {
+    padding: 0.5rem; /* Equivalent to p-2 */
+    width: 100%; /* Full width */
+}
+
+.home-title {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    font-weight: bold; /* Equivalent to font-bold */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.home-title:hover {
+    color: #c3bdbd; /* Equivalent to hover:text-gray-500 */
+}
+.home-posts-wrapper{
+    display: grid;
+    gap: 20px; /* Space between boxes */
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Responsive two-column layout */
+    padding: 20px;
+}
+.home-post-item{
+    text-decoration: none;
+}
+.flex-post-home{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.post-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-posts-container{
+   width: 100%;
+}
+.home-p-wrapper{
+    width: 80%;
+}
+
+.items-two{
+   display: flex;
+   width: 80%;
+}
+.home-div-item{
+    margin-block:100px ;
+    display: flex;
+    justify-content: center;
+}
+.tending{
+    font-size:40px;
+    margin:20px;
+
+}

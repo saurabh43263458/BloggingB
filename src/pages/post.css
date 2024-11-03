@@ -1,0 +1,70 @@
+/* Wrapper around the entire component */
+.post-wrapper {
+    width: 80%;
+    padding: 2rem 0; /* py-8 equivalent */
+}
+.post-main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container for image and author buttons */
+.post-container {
+    width: 100%;
+  
+    margin-bottom: 1rem;
+    position: relative;
+    border: 1px solid #e5e7eb; /* Border color similar to Tailwind's default */
+    border-radius: 1rem; /* rounded-xl equivalent */
+    padding: 0.5rem; /* p-2 equivalent */
+}
+.post-img{
+    
+}
+/* Image styling */
+.post-image {
+    border-radius: 1rem; /* rounded-xl equivalent */
+   width:100%;
+   height: 500px;
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    top: 1.5rem; /* top-6 equivalent */
+    right: 1.5rem; /* right-6 equivalent */
+}
+
+
+
+
+
+
+/* Container for the title */
+.title-container {
+    width: 100%;
+    margin-bottom: 1.5rem; 
+    text-align: center;
+  
+}
+
+/* Title styling */
+.post-title {
+    font-size:  3rem; /* text-2xl equivalent */
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+/* Container for parsed content */
+.content-container {
+    /* Add any specific styling needed for post content here */
+    /* .browser-css if additional styles were used */
+}

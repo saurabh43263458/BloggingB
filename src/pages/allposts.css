@@ -1,0 +1,51 @@
+/* Wrapper for the entire section */
+.post-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0; /* py-8 equivalent */
+}
+
+/* Main wrapper */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post-section-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+}
+
+/* Container for the post grid */
+.container-allposts {
+    width: 80%;
+}
+
+/* Grid container for posts */
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem; /* spacing between post items */
+    width: 100%;
+}
+
+/* Individual post item styling */
+.post-item {
+    margin:1rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* shadow-md equivalent */
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+/* Hover effect */
+.post-item:hover {
+    transform: translateY(-5px);
+}
